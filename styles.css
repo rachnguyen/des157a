@@ -1,0 +1,143 @@
+section {
+    position: relative;
+    background-color: aliceblue;
+    flex: 1;
+    border-radius: 30px;
+}
+
+body ul li {
+    list-style-type: none;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500; 
+    /* padding-left: 40px; */ 
+    background-color:#3F3C3C;
+}
+
+main {
+    display: flex;
+    width: 1100px;
+    margin: auto;
+    gap: 30px;
+    color: #3F3C3C;
+}
+
+#banner:hover {
+    background-position: right;
+  }
+  
+#banner {
+    padding-left: 40px;
+    padding-top: 20px;
+    width: 1100px;
+    height: 250px;
+    margin: 0 auto 50px auto;
+    background: linear-gradient(90deg, rgba(114,174,248,1) 0%, rgba(166,91,214,1) 28%, rgba(254,23,122,1) 50%, rgba(254,143,100,1) 80%, rgba(254,192,132,1) 100%);
+
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    /* margin: auto; */
+
+    /* Animation */
+    cursor: pointer;
+    background-size: 200%;
+    transition: background-position 350ms;
+}
+
+#studios, #experiments, #rd, #final {
+    padding-left: 40px;
+}
+
+#name {
+    font-size: 20px;
+    color: white;
+
+    padding: 10px;
+    text-align: center;
+    margin-right: 900px;
+    background-color: #3F3C3C;
+    border-radius: 30px;
+}
+
+/* Supposed to be name gradient */
+/* #name {
+    font-size: 20px;
+    color: white;
+    background-image: linear-gradient(90deg, rgba(114,174,248,1) 0%, rgba(166,91,214,1) 28%, rgba(254,23,122,1) 50%, rgba(254,143,100,1) 80%, rgba(254,192,132,1) 100%);
+    background-clip: text;
+    color: transparent;
+}
+
+.back {
+    padding: 10px;
+    margin-right: 900px;
+    background-color: #3F3C3C;
+    border-radius: 30px;
+} */
+
+#classname {
+    padding-top: 80px;
+    font-size: 40px;
+    color: white;
+}
+
+#studios {
+    color: #f27746;
+    /* color: rgb(237, 154, 1); */
+    padding-top: 20px;  
+}
+
+#rd {
+    color: rgb(122, 122, 214);
+    /* color: purple; */
+    /* border-bottom: 60px;
+    margin-bottom: 60px; */
+}
+
+#experiments {
+    color: #FE137D;
+    padding-top: 20px;
+}
+
+#final {
+    color: #A65BD6;
+    padding-top: 20px;
+}
+
+footer {
+    text-align: center;
+    color: white;
+}
+
+footer p a {
+    text-decoration: none;
+}
+
+
+/* @media only screen and (min-width: 800px) {
+    nav {
+        display: flex;
+    }
+    
+    .studios {
+        flex: 1; 
+    }
+
+    .experiments {
+        flex: 1;
+        
+    }
+
+    .rd {
+        flex: 1;
+    }
+
+    .final {
+        flex: 1;
+    }
+
+} */
+
+  
